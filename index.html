@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page contains all the things i am learning how to create as i learn html">
+    <title>My First Webpage</title>
+   <link rel="stylesheet" href="style.css" type="text/css">
+   <!--
+     <style>
+        html{
+            font-size: 22px;
+        }
+
+        body {
+            background-color: #333;
+            color: whitesmoke;
+        }
+    </style>
+   -->
+</head>
+<body>
+    <header>
+    <h1>My Goals for the year</h1>
+
+    <nav aria-label="primary-navigation">
+                <ul>
+            <li>
+                <a href="#html">Learn HTML </a>
+            </li>
+
+            <li>
+                <a href="#vacation">Planning a vacation</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+
+    <hr>
+    
+    <main>
+    <article id="html">
+
+    <h2>I'm ready to learn HTML</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis similique maxime veniam earum aspernatur, at minus laborum culpa inventore quas ullam consequuntur porro animi ea necessitatibus? Suscipit facere quo porro.</p>
+
+    <section>
+
+    <img src="image/html_logo.jpg" alt="HMTL 5 LOGO" title="I am learning HMTL5" width="100" height="100">
+
+    <figure>
+        <figcaption>An example of HTML5 code</figcaption>
+        <p>
+            <code>&lt;Hello World!&lt; &gt;</code>
+        </p>
+    </figure>
+    </section>
+
+    <section>
+    <h3>My daily schedule</h3>
+    <p>Let me tell you how:
+        <ol>
+            <li>.. i learn more about wed dev.</li>
+            <li>... i plan out my schedule.</li>
+            <li>...i use resources fron <abbr title="Mozilla Devloper Network">
+                <a href="https://developer.mozilla.org/ ">MDN</a></abbr> </li>
+
+        </ol>
+        <aside>
+            <details>
+                <summary>Gues the <mark>numbers of hours </mark> i code per day </summary>
+                <p>I start at <time datetime="08:00">8 am</time> and i write code for <time datetime="PT3H"> 3 hours</time> every morning</p>
+            </details>
+        </aside>
+        <br>
+        <table>
+            <caption>My Daily schedule</caption>
+            <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th scope="col">Time</th>
+                <th scope="col">Activity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Morning</th>
+                <td>
+                    <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+                </td>
+                <td>Write code</td>
+            </tr>
+            <tr>
+                <th>Break</th>
+                <td>
+                    <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+                </td>
+                <td>Eat Lunch</td>
+            </tr>
+            <tr>
+                <th>Afternoon</th>
+                <td>
+                    <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
+                </td>
+                <td>Study for other courses</td> 
+            </tr>
+            <tr>
+                <th>Evening</th>
+                <td rowspan="2">All other Times </td>
+                <td>Free Time</td>
+            </tr>
+            <tr>
+                <th>Night</th>
+                <td>Sleep</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">And that's what i so every day, 5 days a week. Just eat, sleep, code .. and recharge!</td>
+            </tr>
+        </tfoot>
+        </table>
+    </section>
+    </article>
+        <!--
+        <br>&nbsp;&nbsp;&nbsp;... i learn more about wed dev.
+        <br>&nbsp;&nbsp;&nbsp;... i plan out my schedule. 
+        <br>&nbsp;&nbsp;&nbsp;...i use resources fron <abbr title="Mozilla Devloper Network">MDN</abbr> 
+        -->
+
+    </p>
+
+    <hr>
+
+    <article id="vacation">
+
+    <h2>I am also planning a vacation </h2>
+    <p>I Have been working hard and <em>really need a getaway</em></p>
+    <p>I lin in <abbr title="Home town">OTA</abbr> so i want to visit the beach</p>
+
+    <section>
+    <h3>Places I'd like to visit</h3>
+    <ul>
+    <li><p>I've heard good things about the Caribbean</p>
+    <figure>
+        <img src="image/caribbean.jpg" alt="Caribbean Beach" title="I want to visit caribbean beach." width="200" height="150" loading="lazy">
+        <figcaption>
+            Caribbean Beach Getaway
+        </figcaption>
+     </figure>
+    </li>
+    <li><p>I've heard good things about going here:</p>
+        <address>
+            Market Square The Bells University Ota <br>
+            Cannan City, Winner Church <br>
+            Turning point, jackross ota
+        </address>
+        <figure>
+        <img src="image/vacation.jpg" alt="Cancum Vaction" width="300" height="150" title="It's 5 o'clock somewhere" loading="lazy">
+        <figcaption>
+            A caribbean vacation image
+        </figcaption>    
+    </figure>
+        
+    </li>
+
+    </ul>
+    </section>
+    <!--TODO: Add more places-->
+    <!--
+    <div></div>
+    <span></span>
+    -->
+    <section>
+    <h3>Places I want to avoid</h3>
+    <dl>
+        <dt>North Pole</dt>
+        <dd>I hear this is <strong>cold!</strong></dd>
+
+        <dt>South Pole</dt>
+        <dd>This also cold</dd>
+
+        <dt>Mountain Top</dt>
+        <dd>These are also cold.</dd>
+    </dl>
+    </section>
+    </article>
+</main>
+    <hr>
+<footer>
+    <p>
+    &lt; &lt; &lt; &copy; <a href="about.html">Abina Tunde</a>&gt;&gt;&gt;
+    </p>
+    <p>
+        <a href="#">Back to Top</a>
+    </p>
+</footer>
+</body>
+</html>
